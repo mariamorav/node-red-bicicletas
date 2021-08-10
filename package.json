@@ -8,7 +8,7 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "connect-mongodb-session": "^2.4.1",
     "cookie-parser": "~1.4.4",
     "crypto": "^1.0.1",
@@ -21,10 +21,9 @@
     "mongoose": "^5.9.23",
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "~1.9.1",
-    "newrelic": "^6.13.2",
-    "nodemailer": "^6.4.16",
+    "newrelic": "^8.1.0",
+    "nodemailer": "^6.6.3",
     "nodemailer-sendgrid-transport": "^0.2.0",
-    "nodemon": "^2.0.4",
     "passport": "^0.4.1",
     "passport-facebook-token": "^4.0.0",
     "passport-google-oauth20": "^2.0.0",
@@ -33,6 +32,7 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "jasmine": "^3.5.0"
+    "jasmine": "^3.5.0",
+    "nodemon": "^2.0.4"
   }
 }
