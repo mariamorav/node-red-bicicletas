@@ -8,31 +8,29 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-mongodb-session": "^2.4.1",
-    "cookie-parser": "~1.4.4",
+    "bcrypt": "^5.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "cookie-parser": "^1.4.7",
     "crypto": "^1.0.1",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "express-session": "^1.17.1",
-    "http-errors": "~1.6.3",
-    "jsonwebtoken": "^8.5.1",
-    "moment": "^2.27.0",
-    "mongoose": "^5.9.23",
+    "debug": "^4.4.0",
+    "express": "^4.21.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^5.13.23",
     "mongoose-unique-validator": "^2.0.3",
-    "morgan": "~1.9.1",
-    "newrelic": "^8.1.0",
-    "nodemailer": "^6.6.3",
+    "morgan": "^1.10.0",
+    "newrelic": "^12.12.0",
+    "nodemailer": "^6.10.0",
     "nodemailer-sendgrid-transport": "^0.2.0",
-    "passport": "^0.4.1",
+    "passport": "^0.7.0",
     "passport-facebook-token": "^4.0.0",
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
-    "pug": "3.0.1",
-    "request": "^2.88.2"
+    "pug": "^3.0.3"
   },
   "devDependencies": {
-    "jasmine": "^3.5.0",
-    "nodemon": "^2.0.4"
+    "jasmine": "^5.6.0",
+    "nodemon": "^3.1.9"
   }
 }
